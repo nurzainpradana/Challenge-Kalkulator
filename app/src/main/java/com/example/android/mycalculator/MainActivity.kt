@@ -8,6 +8,14 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var btnTambah: Button
+    private lateinit var btnTambah: Button
+    private lateinit var btnTambah: Button
+    private lateinit var btnTambah: Button
+    private lateinit var btnTambah: Button
+    private lateinit var btnTambah: Button
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
