@@ -6,4 +6,5 @@
     <string name="operator_bagi">/</string>
     <string name="clear_text">C</string>
     <string name="hasil_text">Hasil</string>
+    <string name="empty">0</string>
 </resources>

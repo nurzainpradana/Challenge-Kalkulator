@@ -17,11 +17,17 @@
             android:id="@+id/et_kolom_pertama"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/empty"
+            android:textAlignment="center"
             android:layout_margin="8dp"/>
         <EditText
             android:id="@+id/et_kolom_kedua"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:hint="@string/empty"
             android:layout_margin="8dp"/>
     </LinearLayout>
 
@@ -65,14 +71,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hasil_text"
+        android:textSize="16sp"
         android:layout_marginTop="8dp"/>
 
     <TextView
         android:id="@+id/tv_hasil"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:hint="@string/empty"
         android:background="@color/purple_200"/>
 
 
