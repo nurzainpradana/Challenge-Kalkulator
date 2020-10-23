@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyCalculator - Zain</string>
+    <string name="operator_tambah">+</string>
+    <string name="operator_kurang">-</string>
+    <string name="operator_kali">*</string>
+    <string name="operator_bagi">/</string>
+    <string name="clear_text">C</string>
+    <string name="hasil_text">Hasil</string>
+</resources>
